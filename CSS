@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zaffari Col</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <button id="inicio-btn" onclick="volverInicio()">Inicio</button>
+        <h1>🏔️ Zaffari Col 🏔️</h1>
+        <p>Tu destino de aventura en Colombia</p>
+    </header>
+    <section>
+        <h2>Nuestros Servicios</h2>
+        <div class="servicios">
+            <div class="servicio" onclick="mostrarActividad('rafting')">🌊 Rafting</div>
+            <div class="servicio" onclick="mostrarActividad('trekking')">🥾 Trekking</div>
+            <div class="servicio" onclick="mostrarActividad('comida')">🍽️ Comida</div>
+        </div>
+    </section>
+    <section id="rafting" class="actividad">
+        <h2>Rafting</h2>
+        <p>Vive la emoción del rafting en los ríos de Zaffari Col.</p>
+        <img src="paseos.jpg" alt="Paseo en río">
+    </section>
+    <section id="trekking" class="actividad">
+        <h2>Trekking</h2>
+        <p>Explora los hermosos senderos con nuestras caminatas guiadas.</p>
+        <img src="caminatas.jpg" alt="Senderismo">
+    </section>
+    <section id="comida" class="actividad">
+        <h2>Comida</h2>
+        <p>Disfruta de la deliciosa gastronomía local.</p>
+        <img src="comida.jpg" alt="Comida deliciosa">
+    </section>
+    <section>
+        <h2>Galería de Videos</h2>
+        <div class="galeria">
+            <iframe width="300" height="180" src="https://www.youtube.com/embed/9_znq8UducI" frameborder="0" allowfullscreen></iframe>
+            <iframe width="300" height="180" src="https://www.youtube.com/embed/mgwJZsvYx5o" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </section>
+    <a class="whatsapp" href="https://wa.me/TU_NUMERO" target="_blank" rel="noopener">💬 WhatsApp</a>
+    <footer>
+        <p><a href="TU_LINK_DE_ARCHIVO">Ver Reservas</a></p>
+        <small>&copy; 2026 Zaffari Col. Todos los derechos reservados.</small>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
